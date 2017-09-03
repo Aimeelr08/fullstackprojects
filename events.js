@@ -1,7 +1,7 @@
 'use strict'
 $('.loading').on('click', function(){
 
-$('.loading').toggle(function(){
+$('button').toggle(function(){
 
 $(".loading").hide();
 
@@ -10,7 +10,7 @@ $(".loading").hide();
 })
 $('.page').on('click', function(){
 
-$('.page').toggle(function(){
+$('button').toggle(function(){
 
 $('.page').hide();
 
