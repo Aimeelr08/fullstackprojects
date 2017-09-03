@@ -5,7 +5,7 @@
 
 // load manifests
 // scripts
-require('./assets/scripts/index.js')
 
+require('./events.js')
 // styles
-require('./assets/styles/index.scss')
+require('./index.css')

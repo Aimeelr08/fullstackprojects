@@ -7,7 +7,10 @@
     "content": "CC­BY­NC­SA 4.0"
   },
   "dependencies": {
-    "jquery": "^3.1.1"
+    "jquery": "^3.1.1",
+    "rehype": "^5.0.0",
+    "remark-lint-no-html": "^1.0.1",
+    "remark-lint-no-shell-dollars": "^1.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.17.0",

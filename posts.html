@@ -38,7 +38,7 @@
 
       <h4><a href="index.html">Intro</a></h4>
 
-    </ul>
+
 </nav>
 
     <!-- Navbar -->
@@ -48,18 +48,41 @@
 
         <a href="color.html" class="btn-block purple">Colors</a>
         <a href="song.html"class="btn-block yellow">Songs</a>
-          <!-- <li><a href="docs/about.html"><i class="large material-icons">favorite_border</i></a></li>
-          <li><a href="#"><i class="large material-icons">add_shopping_cart</i></a></li> -->
-        </ul>
+
+
     </nav>
 </nav>
 <nav>
  <div class="nav-wrapper">
  </div>
  </nav>
- <!-- <div class="col l6 card-panel hoverable"> -->
    <div class="container">
-     <table class="responsive-table highlight">
+     <p><input type="checkbox" name="title" checked="checked"> Title
+  <input type="checkbox" name="lyric"> Lyric
+  <input type="checkbox" name="site" checked="checked"> Site</p>
+
+<table id="report">
+<thead>
+<tr>
+ <th class="title">Title</th>
+ <th class="lyric">Lyrics</th>
+ <th class="site">Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+ <td class="title">Larry</td>
+ <td class="lyric">Hughes</td>
+ <td class="site">larry@gmail.com</td>
+</tr>
+<tr>
+ <td class="title">Mike</td>
+ <td class="lyric">Tyson</td>
+ <td class="site">mike@gmail.com</td>
+</tr>
+</tbody> </p>
+     <!-- <table class="responsive-table highlight">
+
        <thead>
          <tr><h1>
            <th>title</th>
@@ -83,15 +106,19 @@
            <td>Wheels on the Bus</td>
            <td>Lyrics</td>
            <td>Song</td>
+          </tr> -->
+         <tr class="addthis" style="display:;">
+         <td>Hide this</td>
          </tr>
-
        </tbody>
      </table>
    </div>
    <form>
        <label>Comment here:</label>
-       <input type="text" maxlength="100" placeholder="hope">
-       <a href="sign.html"><button type="submit">Submit</button></a>
+       <!-- <input type="text" maxlength="100" placeholder="hope"> -->
+       <!-- <a href="sign.html"> -->
+         <input type="submit" onclick="showMessage()" value="submit" />
+         <button type="submit">Submit</button></a>
      </form>
 
      <section class="hope">

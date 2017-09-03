@@ -1,84 +1,88 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>Example</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <!-- Do not add `link` tags-->
-      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<head>
+  <title>Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <!-- Do not add `script` tags-->
-      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
-      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+  <!-- Do not add `link` tags-->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!-- Do not add `script` tags-->
+  <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+  <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
 
-    <!-- Compiled and minified JavaScript -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
-    <!--Import materialize.css-->
-    <!-- <link type="text/css" rel="stylesheet" href="css/startup-materialize.css" media="screen,projection" /> -->
+  <!-- Compiled and minified JavaScript -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
 
-    <!--Let browser know website is optimized for mobile-->
+  <!--Import materialize.css-->
+  <!-- <link type="text/css" rel="stylesheet" href="css/startup-materialize.css" media="screen,projection" /> -->
 
+  <!--Let browser know website is optimized for mobile-->
 
+  <script src="events.js" type="text/javascript" charset="utf-8" defer></script>
+  <!-- <script src="index.js" type="text/javascript" charset="utf-8" defer></script> -->
+  <script src="index.js" type="text/javascript" charset="utf-8" defer></script>
 
+<link type="text/css" rel="stylesheet" href="index.css"/>
 
   <!-- Material Icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
 
+  <!-- Element Showed -->
+    <a id="menu" class="waves-effect waves-light btn-large  btn-block" method="GET" type="submit">menu</a>
+  <a id="sign-in" class="waves-effect waves-light btn-large  btn-block" method="post" type="submit">sign-IN</a>
+    <!-- Tap Target Structure -->
 
-<!-- Navbar -->
+             <!-- <span class="tagline white">Learn more about us in a whole new way.</span>
+             <span class="flow-text">Welcome</span>
+             <form class="form-signin" method="POST" type="submit">
+               <h2 class="form-signin-heading pink">Please Sign-IN</h2>
+               <input class="form-control" type="text" required name="email" placeholder="Email address">
+               <input class="form-control" type="password" required name="password" placeholder="Password">
+               <label class="checkbox">Log-In</label>
+               <button class="btn-floating btn-large scale-transition" type="submit" method="PATCH">Enter</button>
 
+             </form> -->
+             <div class="container">
+               <table class="TableA">
+                 <thead>
+                   <tr>
+                     <h1>
+                   <th>Name</th>
+                   <th>Sing</th>
+                   <th>Along</th>
+                 </tr></h1>
+                 </thead>
 
-<nav class="navbar absolute">
-  <div class="col s12">
-  <h4 class="nav-wrapper teal accent-2">
-
-    <a href="color.html" class="breadcrumb">Introduction</a>
-
-      <!-- <li><a href="docs/about.html"><i class="large material-icons">favorite_border</i></a></li>
-      <li><a href="#"><i class="large material-icons">add_shopping_cart</i></a></li> -->
-
-
-</h4>
-<!-- Features -->
-
-
-
-     <!--  -->
-
-
-<p class="flow-text">
-   <div class="container"><a href="sign.html">
-
-
-     <div class="col s12 m2 red center hoverable ">
-       <p class="z-depth-1">DO</p>
-     </div>
-     <div class="col s12 m2 orange center hoverable ">
-       <p class="z-depth-1">RE</p>
-     </div>
-     <div class="col s12 m2 yellow center hoverable ">
-       <p class="z-depth-">MI</p>
-     </div>
-     <div class="col s12 m2 green center hoverable ">
-       <p class="z-depth-4">FA</p>
-     </div>
-     <div class="col s12 m2 blue center hoverable ">
-       <p class="z-depth-5">SO</p>
-     </div>
-     <div class="col s12 m2 purple center hoverable ">
-       <p class="z-depth-6">LA</p>
-     </div>
-     <div class="col s12 m2 pink center hoverable ">
-       <p class="z-depth-7">TI</p>
-     </div>
-     <div class="col s12 m2 red center hoverable ">
-       <p class="z-depth-8">DO</p>
-     </div></p>
-</a>
-</div>
+                 <tbody>
+                   <tr>
+                     <td>Johnny,Johnny...Yes Papa</td>
+                     <td>Lyrics</td>
+                     <td>Song</td>
+                   </tr>
+                   <tr>
+                     <td>Ba ba black sheep</td>
+                     <td>Lyrics</td>
+                     <td>Song</td>
+                   </tr>
+                   <tr>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                   </tr>
+                 </tbody>
+               </table>
+             </div>
+             <input class="form" type="text" required name="title" placeholder ="HERE"><button class="btn-floating btn-large scale-transition" type="update" method="get">Enter</button>
+<!-- </div></a>   <a id="sign-up" class="waves-effect waves-light btn-large  btn-block" method="POST">sign-up</a> -->
+<!-- <a id="sign-in" class="waves-effect waves-light btn-large  btn-block">sign</a> -->
+  <!-- Tap Target Structure -->
+     <div id="div1" class="targetDiv white"> <a  class="showSingle" target="1"><div class="col s3">1</div></a>
+     <div id="div2" class="targetDiv"> <a  class="showSingle" target="2"><div class="col s3">  <div class="header-wrapper row valign-wrapper">
