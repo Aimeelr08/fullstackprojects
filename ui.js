@@ -1,7 +1,7 @@
 'use strict';
 
 const success = (data) => {
-  // handle success
+$('#my-form').append(data)
 };
 
 const failure = (err) => {

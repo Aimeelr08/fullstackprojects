@@ -2,6 +2,7 @@
 
 const ghPagesList = [
   'index.html',
+  'posts.html',
   'favicon.ico',
   'public'
 ].join(' ')

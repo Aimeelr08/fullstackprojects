@@ -1,4 +1,29 @@
 'use strict'
+$('.loading').on('click', function(){
+
+$('.loading').toggle(function(){
+
+$(".loading").hide();
+
+
+})
+})
+$('.page').on('click', function(){
+
+$('.page').toggle(function(){
+
+$('.page').hide();
+
+
+})
+})
+
+// for (i = 0; i < close.length; i++) {
+//   close[i].onclick = function() {
+//     var div = this.parentElement;
+//     div.style.display = "none";
+
+// document.getElementById("demo").innerHTML = cars[0];
 // Create a "close" button and append it to each list item
 var myNodelist = document.getElementsByTagName("LI");
 var i;
@@ -109,53 +134,55 @@ function newElement() {
   }
 }
 
-function addRow(tableID) {
-  // Get a reference to the table
-  let tableRef = document.getElementById(tableID);
-
-  // Insert a row in the table at row index 0
-  let newRow = tableRef.insertRow(0);
-  // Insert a cell in the row at index 0
-  let newCell = newRow.insertCell(0);
-  // Append a text node to the cell
-  let newText = document.createTextNode('Set CELL AND TIME SLOTS //bottom row');
-  // newText.type = "input";
-  newCell.appendChild(newText)
-} // Call addRow() with the ID of a table
-addRow('newText');
-
-// $(function(){
+// function addRow(tableID) {
+//   // Get a reference to the table
+//   let tableRef = document.getElementById(tableID);
 //
+//   // Insert a row in the table at row index 0
+//   let newRow = tableRef.insertRow(0);
+//   // Insert a cell in the row at index 0
+//   let newCell = newRow.insertCell(0);
+//   // Append a text node to the cell
+//   let newText = document.createTextNode('Set CELL AND TIME SLOTS //bottom row');
+//   // newText.type = "input";
+//   newCell.appendChild(newText)
+// } // Call addRow() with the ID of a table
+// addRow('newText');
 //
+// // $(function(){
+// //
+// //
+// //
+// //         });
+// //         $('btn-block').click(function(){
+// //
+// //
+// //         });
+// // });
+// // $('.tap-target').tapTarget('open');
+// //  $('.tap-target').tapTarget('close');
 //
-//         });
-//         $('btn-block').click(function(){
+// // // $(document).ready(function (){
+// $(function() {
+//   $('target').click(function() {
+// //
+// //     // $('.form-signin').show();
+// //       $('.page3').hide();
+//   $('.targetDiv').hide();
+// //
+// //                 $('#div4').hide();
+// //                 $('.tagline').show();
+// //   });
+//  $('.showSingle').click(function() {
+//  $('.targetDiv').show
 //
-//
-//         });
-// });
-// $('.tap-target').tapTarget('open');
-//  $('.tap-target').tapTarget('close');
-
-// // $(document).ready(function (){
-$(function() {
-  $('target').click(function() {
-//
-//     // $('.form-signin').show();
-//       $('.page3').hide();
-  $('.targetDiv').hide();
-//
-//                 $('#div4').hide();
-//                 $('.tagline').show();
-//   });
- $('.showSingle').click(function() {
- $('.targetDiv').show();
-//     $('.tagline').hide();
-//     $('.page2').show();
-// // $('.form-signin').hide();
-//     $('.div3').show();
-//       });
-  $('#div' + $(this).attr('target')).show();
+//  ();
+// //     $('.tagline').hide();
+// //     $('.page2').show();
+// // // $('.form-signin').hide();
+// //     $('.div3').show();
+// //       });
+//   $('#div' + $(this).attr('target')).show();
 //   });
 // });
 //   // $(".button-collapse").sideNav();
