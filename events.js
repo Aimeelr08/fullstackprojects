@@ -1,5 +1,5 @@
 'use strict'
-$('.loading').on('click', function(){
+$('#myRequest').on('click', function(){
 
 $('button').toggle(function(){
 
@@ -8,11 +8,21 @@ $(".loading").hide();
 
 })
 })
-$('.page').on('click', function(){
+$('#myPage').on('click', function(){
 
 $('button').toggle(function(){
 
 $('.page').hide();
+
+
+})
+})
+
+$('#myColors').on('click', function(){
+
+$('button').toggle(function(){
+
+$('.colorPage').hide();
 
 
 })
