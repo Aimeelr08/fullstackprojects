@@ -11,13 +11,13 @@ $('#demo').hide()
 $('#demo2').hide()
 
 function changePart() {
-  document.getElementById("demo2").innerHTML
+  document.getElementById("demo2")
   $('.btn-block').show();
 }
 
 function changePart2() {
 
-  document.getElementById("demo2").innerHTML;
+  document.getElementById("demo2")
   $('#red').show("demo2");
   $('#pink').hide("demo2");
 }
