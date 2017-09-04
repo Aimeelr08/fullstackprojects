@@ -2,7 +2,7 @@
 /*eslint no-undef: "error"*/
 
 'use strict'
-
+$('.form-signin').hide()
 $('div').hide()
 $('#red').hide()
 $('#pink').hide()
@@ -11,14 +11,15 @@ $('#demo').hide()
 $('#demo2').hide()
 
 function changePart() {
-  document.getElementById("demo2")
-  $('.btn-block').show();
+ document.getElementById("demo2");
+  $('.btn-floating').toggle();
+  $('.form-signin').show();
 }
 
 function changePart2() {
 
-  document.getElementById("demo2")
-  $('#red').show("demo2");
+  document.getElementById("demo3")
+  $('#red').show("demo3");
   $('#pink').hide("demo2");
 }
 

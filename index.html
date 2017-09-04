@@ -16,12 +16,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
   <!-- Compiled and minified JavaScript -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
 
   <!--Import materialize.css-->
   <!-- <link type="text/css" rel="stylesheet" href="css/startup-materialize.css" media="screen,projection" /> -->
 
-  <!--Let browser know website is optimized for mobile-->
+
 
   <script src="./assets/scripts/auth/events.js" type="text/javascript" charset="utf-8" defer></script>
  <!-- <script src="api.js" type="text/javascript" charset="utf-8" defer></script> -->
@@ -38,16 +39,18 @@
 
 <p>WELCOME SIGN-IN</p>
 
-<button onclick="changePart()" class= "btn-floating btn-large scale-transition" type="submit">Enter</button>
+<button onclick="changePart()" class= "btn-floating btn-large scale-transition" value="submit">Enter</button>
 </button>
 
+<form class="form-signin">
 
   <span class="tagline">Learn more about us in a whole new way.</span>
-<!-- <form class="form-signin" method="GET" onclick="myFunction()"> -->
+<!--  onclick="myFunction()"> -->
 
-    <input class="form-control" type="text" required name="email" placeholder="Email address">
-    <input class="form-control" type="password" required name="password" placeholder="Password">
-<p id="demo"></p>
+    <input class="form-control" type="text" placeholder="username">
+    <input class="form-control" type="password"  placeholder="Password" oninvalid="text">
+    <button class="btn-large scale-transition" type="submit" value="Submit"> Submit </button>
+</form>
 
     <!-- <label class="checkbox">Log-In</label>The <label> tag defines a label for an <input> element.
 
@@ -62,10 +65,10 @@ The for attribute of the <label> tag should be equal to the id attribute of the 
 
 
 
+
+<!-- <body onhashchange="myFunction3()"> -->
 <button onclick="changePart2()" class= "btn-large btn-block" type="submit">Song2</button>
 </button>
-<!-- <body onhashchange="myFunction3()"> -->
-
 
 <button onclick="changePart3()" class= "btn-large btn-block" type="submit">Color3</button>
 </button>
@@ -75,9 +78,9 @@ The for attribute of the <label> tag should be equal to the id attribute of the 
 tristique nulla id laoreet, ante litora libero venenatis eget velit at, etiam dicta, fringilla lacinia eros in magnis ac nec. Lorem ipsum dolor sit amet, nam malesuada sit eget, sapien nec mattis aliquet dolor condimentum nunc, wisi vel wisi, eget
 eget sodales justo dictum. Arcu sodales quam odio lectus, metus pretium tellus bibendum, aliquam integer, aenean ligula ac. Sed tincidunt tristique nulla id laoreet, ante litora libero venenatis eget velit at, etiam dicta, fringilla lacinia eros in
 magnis ac nec.</p></div>
-<p id="demo2"><div class="parallax-container pink hoverable" id= "pink">Lorem ipsum dolor sit amet, nam malesuada sit eget, sapien nec mattis aliquet dolor condimentum nunc, wisi vel wisi, eget eget sodales justo dictum. Arcu sodales quam odio lectus, metus pretium tellus bibendum, aliquam integer, aenean ligula ac. Sed tincidunt
+<div class="parallax-container pink hoverable" id= "pink">Lorem ipsum dolor sit amet, nam malesuada sit eget, sapien nec mattis aliquet dolor condimentum nunc, wisi vel wisi, eget eget sodales justo dictum. Arcu sodales quam odio lectus, metus pretium tellus bibendum, aliquam integer, aenean ligula ac. Sed tincidunt
 tristique nulla id laoreet, ante litora libero venenatis eget velit at, etiam dicta, fringilla lacinia eros in magnis ac nec. Lorem ipsum dolor sit amet, nam malesuada sit eget, sapien nec mattis aliquet dolor condimentum nunc, wisi vel wisi, eget
 eget sodales justo dictum. Arcu sodales quam odio lectus, metus pretium tellus bibendum, aliquam integer, aenean ligula ac. Sed tincidunt tristique nulla id laoreet, ante litora libero venenatis eget velit at, etiam dicta, fringilla lacinia eros in
-magnis ac nec.</p></div>
+magnis ac nec.</div>
 
      <!-- <div id="div2" class="targetDiv"> <a  class="showSingle" target="2"><div class="col s3">  <div class="header-wrapper row valign-wrapper"> -->
