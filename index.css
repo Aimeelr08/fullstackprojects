@@ -5,6 +5,12 @@
     min-width: 250px;
     background:pink;
   }
+  h2 {
+     position: absolute;
+     top: 200px;
+     left: 0;
+     width: 100%;
+  }
   .colorPage{
 
     background-color: blue;
@@ -46,7 +52,7 @@
 
 
   .page:before {
-    content: 'Welcome';
+    content: '';
     display: block;
     position: fixed;
     top: 0;
