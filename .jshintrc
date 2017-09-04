@@ -14,5 +14,6 @@
   "strict": "global",
   "undef": true,
   "unused": true,
-  "varstmt": true
+  "varstmt": true,
+
 }
