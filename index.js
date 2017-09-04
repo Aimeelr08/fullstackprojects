@@ -5,7 +5,7 @@
 
 // load manifests
 // scripts
-
+require('assets/scripts/auth/events.js')
 require('./events.js')
 // styles
 require('./index.css')

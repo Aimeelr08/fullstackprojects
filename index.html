@@ -23,8 +23,8 @@
 
   <!--Let browser know website is optimized for mobile-->
 
-  <script src="./events.js" type="text/javascript" charset="utf-8" defer></script>
- <script src="api.js" type="text/javascript" charset="utf-8" defer></script>
+  <script src="assets/scripts/auth/events.js" type="text/javascript" charset="utf-8" defer></script>
+ <!-- <script src="api.js" type="text/javascript" charset="utf-8" defer></script> -->
   <script src="index.js" type="text/javascript" charset="utf-8" defer></script>
 
 <link type="text/css" rel="stylesheet" href="index.css"/>
@@ -34,81 +34,49 @@
 </head>
 
 <body>
-  <div class="container">
-   <div id="myDIV" class="header pink white-text">
-   <h2 style="margin:5px">List of Requirements:</h2>
-   <input type="text" id="myInput" placeholder="New Post">
-   <span onclick="newElement()" class="btn-block">Submit</span>
- </div>
-
- <ul id="myUL">
-   <li>PROJECT TWO</li>
-   <li class="checked">Colored</li>
-   <li>CRUD</li>
-   <li>Ajax</li>
-   <li>HTML DIV </li>
-   <li>Controllers</li>
- </ul>
-
-<div class="loading"><button class="btn-floating btn-large scale-transition" method="POST" id="myRequest">2</button></div>
 
 
+<p>WELCOME SIGN-IN</p>
 
-<div class="page"><h2><span>  <span class="tagline">Learn more about us in a whole new way.</span><div class="form-signin-heading pink">Please Sign-IN</div>
+<button onclick="changePart()" class= "btn-floating btn-large scale-transition" type="submit">Enter</button>
+</button>
 
-      <input class="form-control" type="text" required name="email" placeholder="Email address">
-      <input class="form-control" type="password" required name="password" placeholder="Password">
-      <label class="checkbox">Log-In</label>
-      <!-- <button class="btn-floating btn-large scale-transition" type="submit">Enter</button> -->
-<button class="btn-floating btn-large scale-transition" type="submit" method="POST" id="myPage">3</button>
-    </form><br />Nav bar placeholder</span></h2>
 
-</div></p>
+  <span class="tagline">Learn more about us in a whole new way.</span>
+<!-- <form class="form-signin" method="GET" onclick="myFunction()"> -->
 
-<div class="colorPage">
+    <input class="form-control" type="text" required name="email" placeholder="Email address">
+    <input class="form-control" type="password" required name="password" placeholder="Password">
+<p id="demo"></p>
+
+    <!-- <label class="checkbox">Log-In</label>The <label> tag defines a label for an <input> element.
+
+The <label> element does not render as anything special for the user. However, it provides a usability improvement for mouse users, because if the user clicks on the text within the <label> element, it toggles the control.
+
+The for attribute of the <label> tag should be equal to the id attribute of the related element to bind them together. -->
 
 
 
-
-
-<button class="btn-floating btn-large scale-transition" type="submit" method="POST" id="myColors">2</button>
-</div>
+  <body onhashchange="myFunction()">
+<body onhashchange="myFunction2()">
 
 
 
-               <!-- <button class="btn-floating btn-large scale-transition" type="submit" method="POST" id="myRequest">Enter</button> -->
+<button onclick="changePart2()" class= "btn-large btn-block" type="submit">Song2</button>
+</button><body onhashchange="reloadPage()">
 
 
-               <table  id="TableA">
-                 <thead>
-                   <tr>
-                     <h1>
-                   <th>Name</th>
-                   <th>Sing</th>
-                   <th>Along</th>
-                 </tr></h1>
-                 </thead>
+<button onclick="changePart3()" class= "btn-large btn-block" type="submit">Color3</button>
+</button>
 
-                 <tbody>
-                   <tr>
-                     <td>Johnny,Johnny...Yes Papa</td>
-                     <td>Lyrics</td>
-                     <td>Song</td>
-                   </tr>
-                   <tr>
-                     <td>Ba ba black sheep</td>
-                     <td>Lyrics</td>
-                     <td>Song</td>
-                   </tr>
-                   <tr>
-                     <table id="newText"></table>
-                     <td></td>
-                     <td></td>
-                     <td></td>
-                   </tr>
-                 </tbody>
-               </table>
-             </div> -->
 
+<p id="demo3"> <div class=" parallax-container red hoverable" id= "red"> Lorem ipsum dolor sit amet, nam malesuada sit eget, sapien nec mattis aliquet dolor condimentum nunc, wisi vel wisi, eget eget sodales justo dictum. Arcu sodales quam odio lectus, metus pretium tellus bibendum, aliquam integer, aenean ligula ac. Sed tincidunt
+tristique nulla id laoreet, ante litora libero venenatis eget velit at, etiam dicta, fringilla lacinia eros in magnis ac nec. Lorem ipsum dolor sit amet, nam malesuada sit eget, sapien nec mattis aliquet dolor condimentum nunc, wisi vel wisi, eget
+eget sodales justo dictum. Arcu sodales quam odio lectus, metus pretium tellus bibendum, aliquam integer, aenean ligula ac. Sed tincidunt tristique nulla id laoreet, ante litora libero venenatis eget velit at, etiam dicta, fringilla lacinia eros in
+magnis ac nec.</p></div>
+<p id="demo2"><div class="parallax-container pink hoverable" id= "pink">Lorem ipsum dolor sit amet, nam malesuada sit eget, sapien nec mattis aliquet dolor condimentum nunc, wisi vel wisi, eget eget sodales justo dictum. Arcu sodales quam odio lectus, metus pretium tellus bibendum, aliquam integer, aenean ligula ac. Sed tincidunt
+tristique nulla id laoreet, ante litora libero venenatis eget velit at, etiam dicta, fringilla lacinia eros in magnis ac nec. Lorem ipsum dolor sit amet, nam malesuada sit eget, sapien nec mattis aliquet dolor condimentum nunc, wisi vel wisi, eget
+eget sodales justo dictum. Arcu sodales quam odio lectus, metus pretium tellus bibendum, aliquam integer, aenean ligula ac. Sed tincidunt tristique nulla id laoreet, ante litora libero venenatis eget velit at, etiam dicta, fringilla lacinia eros in
+magnis ac nec.</p></div>
 
      <!-- <div id="div2" class="targetDiv"> <a  class="showSingle" target="2"><div class="col s3">  <div class="header-wrapper row valign-wrapper"> -->
