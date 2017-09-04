@@ -8,7 +8,7 @@ $(".loading").hide();
 
 })
 })
-$('#myPage').on('click', function(){
+$('#myPage').on('click', function () {
 
 $('button').toggle(function(){
 
